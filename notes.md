@@ -31,3 +31,8 @@
   - go to logo.com and create own logo
   - "FM" logo probably
 - ISSUE (SOLVED): I created my own logo but when it rendered on the web page it was way to big. I fized this issue and was able to downsize my logo by altering the width and height properties in the actual logo.svg file
+
+- I think I will call it a night here. Left off on Youtube tutorial at 27:15. Signing off - FM 1:43AM
+
+12/13/2023 Continuing Navbar component
+- Updated favicon and tab name
