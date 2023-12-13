@@ -2,6 +2,8 @@
 ********************************************
 
 12/12/2023 3D Portfolio Project Start
+
+/////////////////PROJECT SETUP/////////////////
 - Set up project directory
 - Downloaded assets
 - Initialized react app with vite (first time using vite)
@@ -22,3 +24,6 @@
 - Created folder 'constants' and copied code for index.js
   - NOTE this file will containt all the static data that will be displayed on the web page. The data in here can be changed at any time
 - Ran `npm run dev` and web page sucessfully runs at localhost:5173
+
+/////////////////COMPONENTS/////////////////
+- In App.jsx, set up BrowserRouter and mounted all components
