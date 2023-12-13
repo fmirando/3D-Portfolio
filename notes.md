@@ -22,8 +22,12 @@
   - There was also an issue with module.exports so I changed it to export default {} instead
 - Created folder called 'utils' and copied code for motion.js
 - Created folder 'constants' and copied code for index.js
-  - NOTE this file will containt all the static data that will be displayed on the web page. The data in here can be changed at any time
+  - NOTE this file will contain all the static data that will be displayed on the web page. The data in here can be changed at any time
 - Ran `npm run dev` and web page sucessfully runs at localhost:5173
 
 /////////////////COMPONENTS/////////////////
 - In App.jsx, set up BrowserRouter and mounted all components
+-Able to display temp logo on web page
+  - go to logo.com and create own logo
+  - "FM" logo probably
+- ISSUE (SOLVED): I created my own logo but when it rendered on the web page it was way to big. I fized this issue and was able to downsize my logo by altering the width and height properties in the actual logo.svg file
