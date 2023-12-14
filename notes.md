@@ -1,6 +1,6 @@
 3D PORTFOLIO JOURNAL
-********************************************
 
+*******************************************************
 12/12/2023 3D Portfolio Project Start
 
 /////////////////PROJECT SETUP/////////////////
@@ -34,6 +34,7 @@
 
 - I think I will call it a night here. Left off on Youtube tutorial at 27:15. Signing off - FM 1:43AM
 
+***************************************************************
 12/13/2023 Continuing Navbar component
 - Updated favicon and tab name
 - Debugging: In video, he shows how to debug issue where logo was not being sized properly via tailwind css. He ran the following commands:
@@ -44,5 +45,9 @@
 - Issue: I notice that the navbar elements are not lined up horizontally like in the video (~32min). All elements are lined up vertically on the web page. Maybe this is something that I can fix later on?
   - I reverted back to the original logo and will continue working. Perhaps the issue is with my own logo and I will see if this issue persists as I code ons
   - SOLVED: I fixed this issue by realizing when mapping over navLinks, I used {} brackets instead of () parentheses after the => arrow. The links are now being displayed horizontally on top of the page now.
-- I still have the issue of there being too much space on the left side of the logo
+- I still have the issue of there being too much space on the left side of the logo -> I guess this is expected so no issue here
 - Created menu icon for small devices (should appear and replace navbar elements when window width is decreased)
+- Done with navbar for now, moving on to
+
+/////////////////Hero Component/////////////////
+- Added background, purple dot and purple line
