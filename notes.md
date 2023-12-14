@@ -72,6 +72,7 @@
   - Now I'm scared to refresh the web page lol this is so weird...but at least I know the three library and whatever dependencies I needed to render this 3D object works...for now...
 - Okay, to address the previous issue Adrian talks about it in the video
   - He says that it takes a while to load and sometimes it even breaks...so he goes into fixing the Loader component
+  - Now when the web page first loads, there is a loading percentage animation
 
 /////////////////Back to Hero Component/////////////////
 - Using framer motion to create scroller animation on bottom of web page (<motion.div>) hmm pretty cool
@@ -81,3 +82,14 @@
 - Added a state to keep track if user is on mobile or not
 -useEffect to check what the current window width is
 -Observation: In Computers.jsx, why didn't he just split up the 'Computers' and 'ComputersCanvas' into separate files?????
+- Gonna call it here and start on the About section tomorrow, cheers!
+
+***************************************************************
+12/14/2023 About
+- Some notes for future me:
+  - Change background to something more retro
+  - Change Hero description
+    - "Welcome to my portfolio" / "FRANK MIRANDO {PORTFOLIO}" /
+  - Change logo
+
+- Don't forget to use react-parallax-tilt instead of react-tilt
