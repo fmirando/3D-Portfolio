@@ -36,3 +36,13 @@
 
 12/13/2023 Continuing Navbar component
 - Updated favicon and tab name
+- Debugging: In video, he shows how to debug issue where logo was not being sized properly via tailwind css. He ran the following commands:
+  - npm install -D --legacy-peer-deps -D postcss autoprefixer
+  - npx tailwindcss init -p
+- Keyboard shortcut: to select multiple instances of a name/variable
+  - CMD + D
+- Issue: I notice that the navbar elements are not lined up horizontally like in the video (~32min). All elements are lined up vertically on the web page. Maybe this is something that I can fix later on?
+  - I reverted back to the original logo and will continue working. Perhaps the issue is with my own logo and I will see if this issue persists as I code ons
+  - SOLVED: I fixed this issue by realizing when mapping over navLinks, I used {} brackets instead of () parentheses after the => arrow. The links are now being displayed horizontally on top of the page now.
+- I still have the issue of there being too much space on the left side of the logo
+- Created menu icon for small devices (should appear and replace navbar elements when window width is decreased)
