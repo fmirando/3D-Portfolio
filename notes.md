@@ -52,4 +52,23 @@
 /////////////////Hero Component/////////////////
 - Added background, purple dot and purple line
 - Added my name and a short description
+- Keep in mind that with a lot of these elements I have been taking into account of small devices. A lot of the elements on the web page will adjust depending on the window size
+- Mounted ComputersCanvas into navbar
 
+/////////////////Computers/////////////////
+-ISSUE: getting an error: could not resolve "three"
+  - SOLVED: ran npm update and restarted server. Seems to have worked
+  - ANOTHER SOLUTION: npm install --legacy-peer-deps three
+- For mounting 3D objects, we use <mesh> instead of <div>
+  - Adding lights: <hemisphereLight>
+    - Attributes needed: intensity and groundColor
+  - For glares: <pointLight>
+- Created new component ComputerCanvas
+- ISSUE: The 3D Computer is not rendering on the web page. I also see some unknown properties error messages for the attributes in <mesh>
+- A VERY STRANGE OBSERVATION: So I tried copying the code from Adrian's github into my project. That didn't work, but when I undid it (CMD + z) and saved the file, the 3D model appeared on the screen. The only problem is that when I refresh the web page, the page goes back to black. In order to get the 3D model to render again, I have to do the following:
+  - Copy and paste code from Adrian's github (Computers.jsx)
+  - Undo (CMD + z) and save
+  - DO NOT REFRESH WEB PAGE OTHERWISE IT WILL GO BACK TO BLACK
+  - Now I'm scared to refresh the web page lol this is so weird...but at least I know the three library and whatever dependencies I needed to render this 3D object works...for now...
+- Okay, to address the previous issue Adrian talks about it in the video
+  - He says that it takes a while to load and sometimes it even breaks...so he goes into fixing the Loader component
