@@ -51,3 +51,5 @@
 
 /////////////////Hero Component/////////////////
 - Added background, purple dot and purple line
+- Added my name and a short description
+
