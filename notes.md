@@ -91,5 +91,24 @@
   - Change Hero description
     - "Welcome to my portfolio" / "FRANK MIRANDO {PORTFOLIO}" /
   - Change logo
+  - Have an icon to download resume
 
 - Don't forget to use react-parallax-tilt instead of react-tilt
+
+- Wrote Overview description
+  - Trying to figure out some inpsiring quotes lol
+- Created service cards
+  - What services do I want to display?
+    - Full Stack Web Developer
+    - React Native Developer
+    - Backend Developer
+    - Graphic Designer
+    - Music Producer
+    - DJ
+
+- In order to create even spacing on web page on left and right sides
+  - Created a new folder called 'hoc'
+  - Created a new component called 'SectionWrapper.jsx'
+  - Using SectionWrapper to wrap About component
+  - Will wrap other components with this as well
+  - The purpose of this is so that when I user is scrolling down the web page, the different sections will animate into view rather than just being static
