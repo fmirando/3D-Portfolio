@@ -119,3 +119,7 @@
   /////////////////Experience/////////////////
 - Should I omit this part? or just put down the part time jobs I've had?
   - Screw it, just do it
+- Created Experience and ExperienceCard components
+  - used <VerticalTimeline> and <VerticalTimelineElement>
+- When he created the ExperienceCard component, he accidently used {} instead of () when defining the component function.
+- Formatted each work experience card
