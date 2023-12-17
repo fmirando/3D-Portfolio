@@ -123,3 +123,5 @@
   - used <VerticalTimeline> and <VerticalTimelineElement>
 - When he created the ExperienceCard component, he accidently used {} instead of () when defining the component function.
 - Formatted each work experience card
+
+  /////////////////Tech Section/////////////////
