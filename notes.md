@@ -112,3 +112,10 @@
   - Using SectionWrapper to wrap About component
   - Will wrap other components with this as well
   - The purpose of this is so that when I user is scrolling down the web page, the different sections will animate into view rather than just being static
+
+
+*******************************************************
+12/16/2023 Experience Component
+  /////////////////Experience/////////////////
+- Should I omit this part? or just put down the part time jobs I've had?
+  - Screw it, just do it
