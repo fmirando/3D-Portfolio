@@ -125,3 +125,20 @@
 - Formatted each work experience card
 
   /////////////////Tech Section/////////////////
+  - I was able to render the tech balls on the web page but they're not rotating when I hover the cursor over them like how it does in the video...
+
+*******************************************************
+12/21/2023 3D Balls
+- Took a break for a few days from this project since I started working. Hopping back on this. From the last time I rememeber, the ball animations weren't working properly as mentioned above
+- Finished 3D balls, just need to find and import my own tech icon assets
+  - JS, HTML, CSS
+  - React.js, React Native
+  - Tailwind
+  - Bootstrap
+  - MongoDB
+  - Postgres
+  - AWS
+  - Node.js
+  - Express
+
+    /////////////////Work Section/////////////////
