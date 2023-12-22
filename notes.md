@@ -151,3 +151,6 @@
     - project images
   - If I've already deployed a project:
     - In Works.jsx I can add another div below the github icon to display another icon that will direct user to the live website
+  - ALl done
+
+  - Probably don't need Testimonials section so I'm going to skip over this part in the video (2:01:11)
