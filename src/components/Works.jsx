@@ -38,6 +38,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_Link }
             </div>
           </div>
         </div>
+
+        <div className="mt-5">
+          <h3>{name}</h3>
+          <p>{description}</p>
+        </div>
       </Tilt>
     </motion.div>
   )

@@ -142,9 +142,11 @@
   - Express
   - Three.js
 
-    /////////////////Work Section/////////////////
-    - Again, don't forget to import tilt from 'react-parallax-tilt'
-    - Was able to make project cards
-      - github icon
-      - tilt effect when hovering over each card
-      - project images
+  /////////////////Work Section/////////////////
+  - Again, don't forget to import tilt from 'react-parallax-tilt'
+  - Was able to make project cards
+    - github icon
+    - tilt effect when hovering over each card
+    - project images
+  - If I've already deployed a project:
+    - In Works.jsx I can add another div below the github icon to display another icon that will direct user to the live website
