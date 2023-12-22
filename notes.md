@@ -144,3 +144,7 @@
 
     /////////////////Work Section/////////////////
     - Again, don't forget to import tilt from 'react-parallax-tilt'
+    - Was able to make project cards
+      - github icon
+      - tilt effect when hovering over each card
+      - project images
