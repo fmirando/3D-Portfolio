@@ -141,6 +141,7 @@
   - Node.js
   - Express
   - Three.js
+  - Supabase
 
   /////////////////Work Section/////////////////
   - Again, don't forget to import tilt from 'react-parallax-tilt'
