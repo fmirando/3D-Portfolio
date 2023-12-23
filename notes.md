@@ -168,3 +168,4 @@
 - Completed contact form and input fields. Pretty straight forward. Still need to complete event handler functions
 - Suspense: This is to have something displayed while an element is loading on the web page
 - Creating canvas for Earth 3D model
+- Earth model is now formatted correctly
