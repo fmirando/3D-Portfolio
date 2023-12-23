@@ -103,8 +103,8 @@
     - React Native Developer
     - Backend Developer
     - Graphic Designer
-    - Music Producer
-    - DJ
+    - Music Producer (Maybe not)
+    - DJ (Maybe not)
 
 - In order to create even spacing on web page on left and right sides
   - Created a new folder called 'hoc'
@@ -154,3 +154,11 @@
   - ALl done
 
   - Probably don't need Testimonials section so I'm going to skip over this part in the video (2:01:11)
+    - eh maybe i'll do it for the practice
+
+*******************************************************
+12/22/2023 Testimonials
+- Finished Feedback component. Pretty straightforward. Not sure if I will keep this in the final product
+
+ /////////////////Contact/////////////////
+ -

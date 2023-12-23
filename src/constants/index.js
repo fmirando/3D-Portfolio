@@ -40,7 +40,6 @@ export const navLinks = [
   },
 ];
 
-// TODO: Add music producer and DJ
 const services = [
   {
     title: "Web Developer",
