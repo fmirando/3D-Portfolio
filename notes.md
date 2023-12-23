@@ -169,3 +169,12 @@
 - Suspense: This is to have something displayed while an element is loading on the web page
 - Creating canvas for Earth 3D model
 - Earth model is now formatted correctly
+
+/////////////////Stars/////////////////
+- Initialized stars canvas, now to create stars from scratch
+- ISSUE: Web page stops rendering when I mount <Points> inside of <group>
+  - SOLUTION: I was exporting "Stars" when I'm supposed to be exporting "StarsCanvas"
+- :D Cool new lil keyboard shortcut I discovered today:
+  - If you're not at the end of a line and you want to move the cursor down into the next line
+  - CMD + Enter to move cursor down to next line without have to click with mouse
+- Made the stars rotate using useFrame and some maths
