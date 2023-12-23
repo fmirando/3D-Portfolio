@@ -178,3 +178,10 @@
   - If you're not at the end of a line and you want to move the cursor down into the next line
   - CMD + Enter to move cursor down to next line without have to click with mouse
 - Made the stars rotate using useFrame and some maths
+
+Going back to Contact component to implement contact form logic
+- Go to emailjs.com
+- Template ID: service_7gpdwan
+- Completed emailjs implementation in Contact.jsx
+  - First try, test email didn't go through...error state invalid template id. Got the correct one gonna try again
+  - IT WORKS!!! 199 emails left on emailjs

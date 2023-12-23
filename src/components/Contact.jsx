@@ -7,6 +7,11 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+// TODO: create .gitignore and .env file containing these ids
+// EMAILJS TEMPLATE ID: service_7gpdwan
+// GMAIL SERVICE ID: service_jtbw1lv
+// PUBLIC KEY: qg9XT7OeCPs2WMQky
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -17,11 +22,41 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    // TODO
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   }
 
   const handleSubmit = (e) => {
-    // TODO
+    // Default behavior of browser is to refresh, below is to prevent this
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_jtbw1lv',
+      'template_uzn51zc',
+      {
+        from_name: form.name,
+        to_name: 'Frank',
+        from_email: form.email,
+        to_email: 'mirandofrank@gmail.com',
+        message: form.message,
+      },
+      'qg9XT7OeCPs2WMQky'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible!');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }), (error) => {
+        setLoading(false);
+        console.log(error);
+        alert('Something went wrong...');
+      }
   }
 
   return (
