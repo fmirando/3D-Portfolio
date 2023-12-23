@@ -185,3 +185,22 @@ Going back to Contact component to implement contact form logic
 - Completed emailjs implementation in Contact.jsx
   - First try, test email didn't go through...error state invalid template id. Got the correct one gonna try again
   - IT WORKS!!! 199 emails left on emailjs
+
+- Now I can deploy, but before I do that I need to customize the portfolio
+
+//////////////////////////// CUSTOMIZATION/CHANGES/IMPROVEMENTS ////////////////////////////
+- Have icon for downloadable resume
+- In constants.js
+  - services
+  - technology balls (refer to what's on resume)
+  - work experiences
+  - testimonials (remove maybe? or add Benji's)
+  - Replace with projects from resume
+    - NEED TO START A NEW PROJECT SOON (FULL STACK)
+  - Replace 3D Computer with Justin's 3D model
+    - If this works, commission Justin to create a  custom 3D model for you
+  - Improve logo
+  - Replace background
+  - Update Hero text
+  - Update About Me
+  - Move emailjs creds to .env and create gitignore
