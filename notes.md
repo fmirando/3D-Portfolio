@@ -161,4 +161,6 @@
 - Finished Feedback component. Pretty straightforward. Not sure if I will keep this in the final product
 
  /////////////////Contact/////////////////
- -
+ - Never used useRef before so this should be an interesting learning experience
+ - Observation: when we export default SectionWrapper(Contact, "contact")
+  - The second argument "contact' inside of the parenthesis is so that when the user clicks on it in the navbar on top of the page, the web page will automatically scroll down to that section
