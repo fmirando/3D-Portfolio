@@ -166,3 +166,5 @@
   - The second argument "contact' inside of the parenthesis is so that when the user clicks on it in the navbar on top of the page, the web page will automatically scroll down to that section
 - useRef: So after some reading, I've deduced that useRef is like useState but the difference is that when the value of useRef changes, it does NOT trigger a re-render like how useState does. I can see how this could be a powerful tool to use when trying to maintain efficiency within a React app and trying to prevent unneccessary renders of the web page
 - Completed contact form and input fields. Pretty straight forward. Still need to complete event handler functions
+- Suspense: This is to have something displayed while an element is loading on the web page
+- Creating canvas for Earth 3D model
