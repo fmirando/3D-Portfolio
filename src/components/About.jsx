@@ -44,9 +44,12 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          My name is Frank Mirando and I'm currently based out of Orange County, California. My journey as a software engineer started at California State University of Fullerton where I obtained my B.S. in computer science. I then completed a rigorous 3-month course at Hack Reactor where I honed my skills even further as a full stack engineer. Here, I gained extensive knowledge and experience developing full stack web applications in an agile environment.
+
+        Hi there! I'm a full-stack software engineer from Orange County, California, with a passion for crafting creative solutions to logical problems.
+        <p>&nbsp;</p>
+        My path to software engineering has been driven by a curiosity to understand how technology shapes our world. I built my foundation with a Bachelor of Science in Computer Science from California State University, Fullerton (graduated January 2021), and deepened my expertise through Hack Reactor's intensive software engineering program (completed June 2023).
+        At Hack Reactor, I thrived in an agile environment where I developed full-stack applications from concept to deployment, with a particular focus on React and scalable architecture. This immersive experience honed not just my technical abilities, but also my collaborative approach to problem-solving.
           <br></br>
-          "Programming, at its essence, is an art form, where lines of code weave intricate tapestries of functionality. The beauty lies not only in the execution of commands but in the thoughtful orchestration of logic and creativity. Crafting elegant algorithms and architecting systems that seamlessly align with a problem's nuances is akin to composing a symphony of functionality."
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

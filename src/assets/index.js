@@ -1,3 +1,4 @@
+// BARREL FILE: EXPORTING HERE SO I CAN EASILY IMPORT LATER
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -25,6 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import blkdotcoffee from "./company/blkdotcoffee.png";
+import packpack from "./company/packpack.png";
+import sevenleaves from "./company/sevenleaves.png";
+import solugenix from "./company/solugenix.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +61,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  blkdotcoffee,
+  packpack,
+  sevenleaves,
+  solugenix,
   carrent,
   jobit,
   tripguide,

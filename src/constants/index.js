@@ -11,13 +11,14 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  meta,
+  blkdotcoffee,
+  packpack,
+  sevenleaves,
+  solugenix,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -109,59 +110,47 @@ const technologies = [
   },
 ];
 
+// Alternate bg colours
+// black bg: 383E56
+// white bg: E6DEDD
 const experiences = [
-  {
-    title: "Barista/Shift Supervisor",
-    company_name: "7 Leaves Cafe",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "July 2016 - December 2020",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+    {
+        title: "Full Stack Software Engineer (Freelance)",
+        company_name: "PackPack Coffee",
+        icon: packpack,
+        iconBg: "#383E56",
+        date: "December 2024 - Present",
+        points: [
+            "Designed and architected a responsive full-stack web application using React, Bootstrap, Node.js, and Express that increased lead generation by providing an accessible online presence for a mobile coffee catering  business.",
+            "Implemented comprehensive scheduling system with Google Calendar API integration that automated booking processes, enabled real-time availability visualization, and reduced manual administrative work by 50%.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Engineered social media integration using Instagram Graph API that automatically displays recent events and customer testimonials, increasing social proof and converting 35% more Instagram followers into booking inquiries.",
+        ],
+    },
+    {
+        title: "Barista, Shift Lead",
+        company_name: "Blkdot Coffee",
+        icon: blkdotcoffee,
+        iconBg: "#E6DEDD",
+        date: "December 2023 - Present",
+        points: [
+            "Trained 15 new employees on recipes, company policies and efficient workflow to maintain a 4+ star rating on Yelp.",
+            "Boosted average ticket sales by 18% through effective upselling techniques and creating seasonal drink specials that highlighted premium ingredients",
+            "Managed shift scheduling for team of 8-12 baristas, consistently maintaining optimal staffing levels that reduced labor costs by 15% while ensuring excellent service during peak hours.",
+        ],
+    },
+    {
+        title: "IT Support Specialist",
+        company_name: "Solugenix",
+        icon: solugenix,
+        iconBg: "#383E56",
+        date: "April 2021 - April 2022",
+        points: [
+            "Provided tier 1 technical support for critical medical sterilization equipment, troubleshooting hardware, software, and network connectivity issues across 1000+ support healthcare facilities across the country.",
+            "Managed and maintained IT service desk tickets with an average resolution time of 45 minutes, exceeding organizational SLA targets by 15%.",
+            "Collaborated with cross-functional IT teams and field technicians to escalate complex technical issues, maintaining 99.7% uptime for mission-critical medical systems.Managed shift scheduling for team of 8-12 baristas, consistently maintaining optimal staffing levels that reduced labor costs by 15% while ensuring excellent service during peak hours.",
+        ],
+    },
 ];
 
 // Removed testimonials
