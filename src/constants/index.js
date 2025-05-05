@@ -123,7 +123,6 @@ const experiences = [
         points: [
             "Designed and architected a responsive full-stack web application using React, Bootstrap, Node.js, and Express that increased lead generation by providing an accessible online presence for a mobile coffee catering  business.",
             "Implemented comprehensive scheduling system with Google Calendar API integration that automated booking processes, enabled real-time availability visualization, and reduced manual administrative work by 50%.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
             "Engineered social media integration using Instagram Graph API that automatically displays recent events and customer testimonials, increasing social proof and converting 35% more Instagram followers into booking inquiries.",
         ],
     },
