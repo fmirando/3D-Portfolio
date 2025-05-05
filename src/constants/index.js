@@ -53,10 +53,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Graphic Design",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -116,11 +112,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Barista/Shift Supervisor",
+    company_name: "7 Leaves Cafe",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2016 - December 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

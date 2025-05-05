@@ -200,7 +200,26 @@ Going back to Contact component to implement contact form logic
   - Replace 3D Computer with Justin's 3D model
     - If this works, commission Justin to create a  custom 3D model for you
   - Improve logo
+  - Replace icons for:
+    - work experience
   - Replace background
   - Update Hero text
   - Update About Me
   - Move emailjs creds to .env and create gitignore
+  - Generate README
+    - Implement GIFS showcasing 3D models on web page
+
+
+
+Updating constants
+- 7 Leaves Cafe
+
+
+
+
+
+
+
+
+
+
