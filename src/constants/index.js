@@ -121,9 +121,9 @@ const experiences = [
         iconBg: "#383E56",
         date: "December 2024 - Present",
         points: [
-            "Designed and architected a responsive full-stack web application using React, Bootstrap, Node.js, and Express that increased lead generation by providing an accessible online presence for a mobile coffee catering  business.",
+            "Designed and deployed a responsive full-stack web application (React, Node.js, Express) that increased bookings by 25% by modernizing the business’s online presence and streamlining customer inquiries.",
             "Implemented comprehensive scheduling system with Google Calendar API integration that automated booking processes, enabled real-time availability visualization, and reduced manual administrative work by 50%.",
-            "Engineered social media integration using Instagram Graph API that automatically displays recent events and customer testimonials, increasing social proof and converting 35% more Instagram followers into booking inquiries.",
+            "Developed custom inventory management system for business owner using Python, Tkinter, Pandas and SQLite, reducing inventory management time by 75% and streamlining ordering processes for mobile coffee operations.",
         ],
     },
     {
