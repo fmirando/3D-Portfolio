@@ -20,6 +20,10 @@ const Contact = () => {
     message: '',
   });
   const [loading, setLoading] = useState(false);
+    // These emailjs keys are public safe
+    const emailjsTemplateId = 'template_uzn51zc';
+    const emailjsServiceId = 'service_dyqgbmg';
+    const emailjsPublicKey = 'qg9XT7OeCPs2WMQky';
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -32,8 +36,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_jtbw1lv',
-      'template_uzn51zc',
+      emailjsServiceId,
+      emailjsTemplateId,
       {
         from_name: form.name,
         to_name: 'Frank',
@@ -41,7 +45,7 @@ const Contact = () => {
         to_email: 'mirandofrank@gmail.com',
         message: form.message,
       },
-      'qg9XT7OeCPs2WMQky'
+      emailjsPublicKey
       )
       .then(() => {
         setLoading(false);
